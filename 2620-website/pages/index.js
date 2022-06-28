@@ -1,4 +1,6 @@
+import React from 'react'
 import Head from 'next/head'
+
 
 export default function Home() {
   return (
@@ -10,39 +12,39 @@ export default function Home() {
 
       <main>
         <div>
-            <img src="./2620_Logo.png" alt="logo" height="100rem"/>
-            <h1 className="title">
+            <img style={{display: "inline-block"}} src="./2620_Logo.png" alt="logo" height="100rem"/>
+            <h1 style={{display: "inline-block"}} className="title">
                 Southgate Robotics Team 2620
             </h1>
         </div>
         
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="" className="card">
+            <h3>Team Calendar</h3>
+            <p>Future location of the Team's upcoming events.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="" className="card">
+            <h3>Training Materials</h3>
+            <p>Future location of Team training Materials.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Team History</h3>
+            <p>Future Site of team history elements.</p>
+          </a>
+
+          <a
+            href=""
+            className="card"
+          >
+            <h3>Join Us!</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Future location of application sheet.
             </p>
           </a>
         </div>
