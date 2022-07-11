@@ -1,64 +1,56 @@
 import React from 'react'
 import Head from 'next/head'
 
+	export default function Home() {
+	return (
+		<div className="container">
+		<Head>
+			<title>Southgate Robotics</title>
+			<link rel="icon" href="/lightning.ico" />
+		</Head>
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Southgate Robotics</title>
-        <link rel="icon" href="/lightning.ico" />
-      </Head>
+		<main>
+			<div className="header">
+				<img src="./2620_Logo.png" alt="logo" height="100rem"/>
+				<h1>
+					Southgate Robotics Team 2620
+				</h1>
+			</div>
+			
 
-      <main>
-        <div>
-            <img style={{display: "inline-block"}} src="./2620_Logo.png" alt="logo" height="100rem"/>
-            <h1 style={{display: "inline-block"}} className="title">
-                Southgate Robotics Team 2620
-            </h1>
-        </div>
-        
+			<div className="grid">
+			<a href="" className="card">
+				<h3>Team Calendar</h3>
+				<p>Future location of the Team's upcoming events.</p>
+			</a>
 
-        <div className="grid">
-          <a href="" className="card">
-            <h3>Team Calendar</h3>
-            <p>Future location of the Team's upcoming events.</p>
-          </a>
+			<a href="" className="card">
+				<h3>Training Materials</h3>
+				<p>Future location of Team training Materials.</p>
+			</a>
 
-          <a href="" className="card">
-            <h3>Training Materials</h3>
-            <p>Future location of Team training Materials.</p>
-          </a>
+			<a
+				href=""
+				className="card"
+			>
+				<h3>Team History</h3>
+				<p>Future Site of team history elements.</p>
+			</a>
 
-          <a
-            href=""
-            className="card"
-          >
-            <h3>Team History</h3>
-            <p>Future Site of team history elements.</p>
-          </a>
-
-          <a
-            href=""
-            className="card"
-          >
-            <h3>Join Us!</h3>
-            <p>
-              Future location of application sheet.
-            </p>
-          </a>
-        </div>
-      </main>
+			<a
+				href=""
+				className="card"
+			>
+				<h3>Join Us!</h3>
+				<p>
+				Future location of application sheet.
+				</p>
+			</a>
+			</div>
+		</main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+       
       </footer>
 
       <style jsx>{`
@@ -71,21 +63,25 @@ export default function Home() {
           align-items: center;
         }
 
+        .header {
+        	display:flex;
+        }
+
         main {
-          padding: 5rem 0;
-          flex: 1;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+			padding: 5rem 0;
+			flex: 1;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
         }
 
         footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+			width: 100%;
+			height: 100px;
+			border-top: 1px solid #eaeaea;
+			display: flex;
+			justify-content: center;
+			align-items: center;
         }
 
         footer img {
@@ -153,8 +149,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #800020;
+          border-color: #800020;
         }
 
         .card h3 {
