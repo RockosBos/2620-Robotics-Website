@@ -12,14 +12,14 @@ import Head from 'next/head'
 		<main>
 			<div className="header">
 				<img src="./2620_Logo.png" alt="logo" height="100rem"/>
-				<h1>
+				<h1 className='headerText'>
 					Southgate Robotics Team 2620
 				</h1>
 			</div>
 			
 
 			<div className="grid">
-			<a href="" className="card">
+			<a href="./pages/calendar.js" className="card">
 				<h3>Team Calendar</h3>
 				<p>Future location of the Team's upcoming events.</p>
 			</a>
@@ -66,6 +66,12 @@ import Head from 'next/head'
         .header {
         	display:flex;
         }
+
+		.headerText {
+			padding-left: 10%;
+			font-size: 30pt;
+			
+		}
 
         main {
 			padding: 5rem 0;
