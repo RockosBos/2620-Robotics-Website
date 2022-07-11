@@ -1,62 +1,56 @@
 import Head from 'next/head'
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Southgate Robotics</title>
-        <link rel="icon" href="/lightning.ico" />
-      </Head>
 
-      <main>
-        <div>
-            <img src="./2620_Logo.png" alt="logo" height="100rem"/>
-            <h1 className="title">
-                Southgate Robotics Team 2620
-            </h1>
-        </div>
-        
+	export default function Home() {
+	return (
+		<div className="container">
+		<Head>
+			<title>Southgate Robotics</title>
+			<link rel="icon" href="/lightning.ico" />
+		</Head>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+		<main>
+			<div className="header">
+				<img src="./2620_Logo.png" alt="logo" height="100rem"/>
+				<h1>
+					Southgate Robotics Team 2620
+				</h1>
+			</div>
+			
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+			<div className="grid">
+			<a href="" className="card">
+				<h3>Team Calendar</h3>
+				<p>Future location of the Team's upcoming events.</p>
+			</a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+			<a href="" className="card">
+				<h3>Training Materials</h3>
+				<p>Future location of Team training Materials.</p>
+			</a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+			<a
+				href=""
+				className="card"
+			>
+				<h3>Team History</h3>
+				<p>Future Site of team history elements.</p>
+			</a>
+
+			<a
+				href=""
+				className="card"
+			>
+				<h3>Join Us!</h3>
+				<p>
+				Future location of application sheet.
+				</p>
+			</a>
+			</div>
+		</main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+       
       </footer>
 
       <style jsx>{`
@@ -69,21 +63,25 @@ export default function Home() {
           align-items: center;
         }
 
+        .header {
+        	display:flex;
+        }
+
         main {
-          padding: 5rem 0;
-          flex: 1;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+			padding: 5rem 0;
+			flex: 1;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
         }
 
         footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+			width: 100%;
+			height: 100px;
+			border-top: 1px solid #eaeaea;
+			display: flex;
+			justify-content: center;
+			align-items: center;
         }
 
         footer img {
@@ -151,8 +149,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #800020;
+          border-color: #800020;
         }
 
         .card h3 {
